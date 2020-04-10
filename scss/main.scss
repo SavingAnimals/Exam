@@ -11,6 +11,18 @@ $FontSizeBase: 16px;
 body {
     margin: 0;
     padding: 0;
+    position: relative;
+    .up-link {
+        display: block;
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+        text-decoration: none;
+        i {
+            color: white;
+            font-size: 30px;
+        }
+    }
 }
 
 .mainer {
@@ -543,4 +555,10 @@ body {
             }
         }
     }
+}
+
+.up-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
