@@ -455,6 +455,7 @@ body {
     }
     &__content {
         display: flex;
+        background-color: #333333;
         @media screen and (max-width: 940px) {
             flex-wrap: wrap;
         }
@@ -468,7 +469,6 @@ body {
             }
         }
         &__description {
-            background-color: #333333;
             padding: 35px 60px;
             @media screen and (max-width: 767px) {
                 padding: 25px 25px;

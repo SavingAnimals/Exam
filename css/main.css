@@ -578,6 +578,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #333333;
 }
 
 @media screen and (max-width: 940px) {
@@ -601,7 +602,6 @@ body {
 }
 
 .block-tourist__content__description {
-  background-color: #333333;
   padding: 35px 60px;
 }
 
